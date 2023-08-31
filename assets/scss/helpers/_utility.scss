@@ -1,0 +1,7 @@
+// garient Setting
+@mixin gradient-x($start-color: $primary, $end-color: $secondary){
+    background-image: linear-gradient(to right, $start-color, $end-color);
+}
+@mixin gradient-y($start-color: $primary, $end-color: $secondary){
+    background-image: linear-gradient(to button, $start-color, $end-color);
+}
