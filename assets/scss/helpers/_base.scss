@@ -1,0 +1,15 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+body{
+    font-family:  Shrikhand, Noto Sans CJK TC;
+    color: white;
+}
+a{
+    text-decoration: none;
+}

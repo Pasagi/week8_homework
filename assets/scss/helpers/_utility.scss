@@ -5,3 +5,13 @@
 @mixin gradient-y($start-color: $primary, $end-color: $secondary){
     background-image: linear-gradient(to button, $start-color, $end-color);
 }
+
+.bg-primary-gradient-x{
+    @include gradient-x($primary-200, $primary-600);
+}
+.bg-primary-gradient-y{
+    @include gradient-y($primary-200, $primary-600);
+}
+.bg-primary-gradient{
+    background: linear-gradient(180deg, #7000FF 0%, #11002D 100%);
+}
